@@ -1,0 +1,36 @@
+:root{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+div > h1{
+    font-size: 15rem;
+    margin: 0 ;
+}
+section > button{
+    width: 12rem;
+    height: 5rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+}
+section > :nth-child(2) {
+    background-color: rgb(254, 25, 25);
+}
+section > :first-child{
+    background-color: rgb(0, 113, 174);
+}
+section > :last-child{
+    background-color: black;
+}
